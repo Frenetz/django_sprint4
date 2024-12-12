@@ -4,7 +4,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 DEBUG = True
 
-SECRET_KEY='yGCjn_OYd_lb1tqbjdcm04mjHJQq8ExAFkqlQWYLuYyn0YsG9v-XJAhgj_YwMipZQfU'
+SECRET_KEY = 'yGCjn_OYd_lb1tqbjdcm04mjHJQq8ExAFkqlQWYLuYyn0YsG9v-XJAhgj_YwMipZQfU'
 
 ALLOWED_HOSTS = [
     'localhost',
@@ -42,7 +42,7 @@ INTERNAL_IPS = [
 
 ROOT_URLCONF = 'blogicum.urls'
 
-TEMPLATES_DIR=BASE_DIR / 'templates'
+TEMPLATES_DIR = BASE_DIR / 'templates'
 
 TEMPLATES = [
     {
